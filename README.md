@@ -23,7 +23,7 @@ This Python-based toolkit performs two main penetration testing tasks:
 # Editor used: VS Studio
 
 
-# File: main.py
+# 📁File: main.py
 -Purpose
 This is the main script that runs the entire toolkit. It handles user interaction and ties together all other modules.
 
@@ -54,7 +54,7 @@ if 22 in open_ports:
 print("--- Penetration Test Completed ---")
 # Ends the scan and prints a message.
 
-# File: penetration_toolkit/port_scanner.py
+# 📁File: penetration_toolkit/port_scanner.py
 -Purpose:
 Scans a list of TCP ports on a given IP address to check which are open.
 
@@ -81,7 +81,7 @@ with ThreadPoolExecutor(max_workers=threads) as executor:
 ~ Scans all specified ports using 100 threads for faster performance.
 ~ Collects and returns a list of all open ports.
 
-# File: penetration_toolkit/brute_forcer.py
+# 📁File: penetration_toolkit/brute_forcer.py
 -Purpose:
 Attempts to guess the SSH login password by trying a list of known or guessed passwords.
 
